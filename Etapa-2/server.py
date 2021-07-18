@@ -1,7 +1,6 @@
 import socket
 
-# bind_ip = ip do servidor
-bind_ip = '192.168.0.112'
+bind_ip = 'localhost'
 bind_port = 12000
 
 def isprim(num):

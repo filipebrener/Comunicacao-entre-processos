@@ -1,7 +1,6 @@
 import socket
 
-# target_host = ip do servidor
-target_host = '192.168.0.112'
+target_host = 'localhost'
 target_port = 12000
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
